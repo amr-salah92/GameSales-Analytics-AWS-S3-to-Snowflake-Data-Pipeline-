@@ -90,6 +90,7 @@ Prior to November 2023, sales data was siloed:
 - **Snowflake**: Auto-ingestion via Snowpipe.  
 - **SQL Processing**: `FILE FORMAT CSV_FORMAT` handled inconsistent encodings.  
 
+**Snowflake Query Link**: [Snowflake Query](https://app.snowflake.com/prbfrzx/avb74710/wrIJiXpljil#query)
 ---
 
 ## Assumptions and Caveats  
