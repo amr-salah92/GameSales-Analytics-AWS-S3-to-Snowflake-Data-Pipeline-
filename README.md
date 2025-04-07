@@ -25,9 +25,8 @@ NextGen Games Inc. (est. 2010) is a video game publisher with $220M annual reven
 
 **Data Context**  
 Prior to November 2023, sales data was siloed:  
-- **Source 1**: Legacy CSV files in AWS S3 (8M records, 2015–2022).  
-- **Source 2**: SQL Server (3M records, 2023).  
-- **Source 3**: Manual Excel uploads (1M records, Q3 2023).  
+- **Source 1**: Legacy CSV files in AWS S3  
+ 
 
 ---
 
@@ -60,6 +59,9 @@ Prior to November 2023, sales data was siloed:
 | **NA_SALES** | North America revenue. | - 5% negatives flagged as refunds.<br>- Excludes pre-orders. | Primary metric for NA warehouse stock levels. |  
 | **GLOBAL_SALES** | Worldwide revenue. | - 10% variance vs. finance reports (under audit). | High-level trend analysis only. |  
 | **NA_PROFIT** | NA net profit. | - 15% missing margins imputed at 30%. | Drives NA marketing budget ($8M quarterly). |  
+
+
+![Screenshot_7-4-2025_222628_dbdiagram io](https://github.com/user-attachments/assets/e7d54046-0360-4544-95f2-d69e25cc7548)
 
 ---
 
